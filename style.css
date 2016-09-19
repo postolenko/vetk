@@ -2127,11 +2127,6 @@ p a:hover {
     background: rgba(255, 255, 255, 1);
 }
 
-/*.dropdown-article {
-    margin: 20px 0 0 0;
-    background: rgba(255, 255, 255, 1);
-}*/
-
 .dropdown-article.js .inner-article-header:after {
     bottom: 0;
     left: 30px;
