@@ -1042,41 +1042,13 @@ p a:hover {
     border-bottom: 10px solid transparent;
 }
 
-/*.article-preview .col-2:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -12px;
-    left: 0;
-    border-left: 10px solid #ffffff;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    height: 40%;
-    width: 10px;
-}
-
-.article-preview .col-2:after {
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: -12px;
-    left: 0;
-    border-left: 10px solid #ffffff;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    height: 40%;
-    width: 10px;
-}*/
-
 .article-preview .col-2 .inner-col-left {
-    /*display: inline-block;*/
     display: table-cell;
     vertical-align: middle;
     width: 37%;
     max-width: 210px;
     position: relative;
     z-index: 2;
-    /*margin: 0 0 0 -11px;*/
     overflow: hidden;
 }
 
@@ -1089,14 +1061,12 @@ p a:hover {
 
 .article-preview .col-2 .inner-col {
     display: table-cell;
-    /*display: inline-block;*/
     vertical-align: middle;
     width: 63%;
     padding: 10px 0;
 }
 
 .article-preview .col-2 p {
-    /*display: table-cell;*/
     display: inline-block;
     vertical-align: middle;
     width: 100%;
@@ -1214,7 +1184,6 @@ p a:hover {
 
 .article-attentive .article-content {
     padding: 15px 2%;
-    /*border: 1px solid #d1d1d1;*/
     border-top: 1px solid transparent;
     border-right: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
@@ -1228,10 +1197,6 @@ p a:hover {
     font-weight: normal;
     color: #3b3b3b;
 }
-
-/*.article-content-row {
-    padding: 0 0 20px 0;
-}*/
 
 .article-content-row h3 {
     padding: 7px 0 0 0;
