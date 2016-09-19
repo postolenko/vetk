@@ -1092,6 +1092,7 @@ p a:hover {
     /*display: inline-block;*/
     vertical-align: middle;
     width: 63%;
+    padding: 10px 0;
 }
 
 .article-preview .col-2 p {
