@@ -434,9 +434,6 @@ p a:hover {
     width: 40px;
     height: 39px;
     margin: 0 5px 0 0;
-/*    background-image: url(img/tel_icon.png);
-    background-repeat: no-repeat;
-    background-position: center;*/
 }
 
 .col-1.tel-links a {
@@ -513,8 +510,6 @@ p a:hover {
 }
 
 .search-box button {
-    /*display: block;
-    float: right;*/
     display: inline-block;
     vertical-align: middle;
     width: 22px;
@@ -539,13 +534,6 @@ p a:hover {
     width: 13%;
     text-align: center;
 }
-
-/*.header-col-3 .fa.fa-eye {
-    font-size: 33px;
-    line-height: 40px;
-    font-weight: normal;
-    color: #16469e;
-}*/
 
 .header-col-3 a {
     display: block;
@@ -572,10 +560,6 @@ p a:hover {
 }
 
 .header-col-3 a img {
-    /*font-size: 33px;
-    line-height: 40px;
-    font-weight: normal;
-    color: #16469e;*/
     display: block;
     width: 54px;
     height: auto;
@@ -654,10 +638,6 @@ p a:hover {
     font-weight: normal;
     color: #3b3b3b;
     text-align: left;
-}
-
-.sign-in-btn-box {
-
 }
 
 .sign-in-btn {
@@ -773,7 +753,6 @@ p a:hover {
 }
 
 .main-nav li {
-    /*display: inline-block;*/
     display: table-cell;
     vertical-align: middle;
     padding: 30px 48px;
@@ -785,9 +764,9 @@ p a:hover {
     display: block;
     content: "";
     position: absolute;
-    height: 100%;
+    height: 90%;
     width: 2px;
-    top: 0;
+    top: 5%;
     right: 0;
     opacity: .4;
     background: -moz-radial-gradient(center, ellipse cover,  rgba(253,249,255,0) 0%, rgba(253,250,255,0.02) 15%, rgba(253,251,255,0.17) 25%, rgba(254,252,255,0.21) 50%, rgba(255,254,255,0.17) 77%, rgba(255,254,255,0.03) 87%, rgba(255,255,255,0) 100%);
@@ -924,10 +903,6 @@ p a:hover {
     padding: 10px 0;
 }
 
-.article-content ul {
-
-}
-
 .article-content ul li {
     display: table;
     font-family: "HelveticaNeueCyr-Roman", Tahoma, Verdana, Arial, sans-serif;
@@ -977,13 +952,9 @@ p a:hover {
 .article-preview .col-1 {
     display: inline-block;
     vertical-align: middle;
-/*    display: block;
-    float: left;*/
     width: 4%;
-    /*border-right: 1px solid #cdc9c9;*/
     position: relative;
     margin: 0 0 0 -4%;
-    /*padding: 0 1% 0 0;*/
 }
 
 .article-preview .col-1:after {
@@ -1023,7 +994,6 @@ p a:hover {
     width: 96%;
     background: rgba(240, 240 ,240, 1);
     margin: 0 0 0 4%;
-    /*border-left: 10px solid #ffffff;*/
     position: relative;
     font-size: 0;
     line-height: 0;
@@ -1203,10 +1173,6 @@ p a:hover {
     padding: 7px 0 0 0;
 }
 
-.article-content-row p {
-
-}
-
 .two-cols-contacts-box {
     font-size: 0;
     line-height: 0;
@@ -1303,6 +1269,34 @@ p a:hover {
     width: 33.33%;
     margin: 8px 0;
     padding: 0 .5%;
+
+    -webkit-transition-property: transform box-shadow;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform box-shadow;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform box-shadow;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform box-shadow;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform box-shadow;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.links-thumbs .thumbnail:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .links-thumbs .thumbnail a {
@@ -1338,15 +1332,10 @@ p a:hover {
      width: 38%;
 }
 
-
 .section-three-cols > .col-2 {
      display: inline-block;
      vertical-align: top;
      width: 38%;
-}
-
-.section-three-cols .col-1 h2 {
-
 }
 
 .slider-certificates {
@@ -1545,6 +1534,7 @@ p a:hover {
 }
 
 
+/* Committee Page */
 
 
 .сommittee-section {

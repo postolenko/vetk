@@ -81,20 +81,6 @@ $(document).ready(function() {
 
     $(function() {
 
-        // $(".article-item-content-wrapp, .drop-box").addClass("js");
-
-        // var countDropdownArticleH = $(".dropdown-article .article-item-content-h").length - 1;
-        // var countDropdownArticleHFor = 0;
-
-        // console.log(countDropdownArticleH);
-
-        // for ( countDropdownArticleHFor = 0; countDropdownArticleHFor <= countDropdownArticleH; ++countDropdownArticleHFor ) {
-
-        //     $(".dropdown-article .article-item-content-h:eq("+ countDropdownArticleHFor +") .drop-tr").width( $(".dropdown-article:eq("+ countDropdownArticleHFor +") .article-item-content-h").height() / 2 );
-
-        // }
-
-
         $(".dropdown-article").addClass("js");
         $(".dropdown-boxes").addClass("js");
         $(".drop-box").addClass("js");
