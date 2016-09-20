@@ -1340,6 +1340,7 @@ p a:hover {
 
 .slider-certificates {
     padding: 10px 0 0 0;
+    overflow: hidden;
 }
 
 .slider-certificates .slick-slide {
