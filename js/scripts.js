@@ -53,8 +53,6 @@ $(document).ready(function() {
 
                 countColsLength = $(".сommittee-item:eq("+ countScaleItemsFor +") .committee-col").length - 1;
 
-                console.log(countColsLength);
-
                 $(".сommittee-item:eq(0) .committee-thumb").css({"margin-top" : 0 + "px"})
 
                 $(".сommittee-item:eq("+ countScaleItemsFor +") .committee-thumb").css({"margin-top" : -$(".сommittee-item:eq("+ countScaleItemsFor +") .committee-thumb").height() + "px"})
@@ -67,11 +65,7 @@ $(document).ready(function() {
 
                 $(".сommittee-item:eq("+ countScaleItemsFor +") .committee-col").outerHeight( Math.max.apply(null, heightThumbArr) );
 
-                console.log(heightThumbArr);
-
             }        
-
-            console.log(heightThumbArr);
 
         }
 
@@ -81,6 +75,9 @@ $(document).ready(function() {
 
     $(function() {
 
+        var indexDrop;
+        var indexDropItem;
+
         $(".dropdown-article").addClass("js");
         $(".dropdown-boxes").addClass("js");
         $(".drop-box").addClass("js");
@@ -89,11 +86,6 @@ $(document).ready(function() {
         $(".article-item-content-h").append("<span class='pseudo'></span>");
 
         $(".article-item-content-wrapp:first-child .article-item-content-h .pseudo").css({ "display" : "none" });
-
-
-        var indexDrop;
-
-        var indexDropItem;
 
         $(".drop-btn").click(function() {
 
