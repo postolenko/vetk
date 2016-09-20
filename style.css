@@ -96,7 +96,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #333333;
-    /*min-width: 1200px;*/
+    min-width: 1200px;
     background-color: rgb(255, 255, 255, 1);
     background-image: url("img/background_site.png");
     background-repeat: repeat;
@@ -212,7 +212,6 @@ h1 {
     text-transform: uppercase;
 }
 
-
 h2 {
     font-family: "Russo-One", Tahoma, Verdana, Arial, sans-serif;
     font-size: 21px;
@@ -221,10 +220,6 @@ h2 {
     color: #3a3a3a;
     text-transform: uppercase;
     padding: 8px 0;
-}
-
-h3 {
-
 }
 
 p {
@@ -263,7 +258,7 @@ a:active {
 
 .row {
     padding: 0 1%;
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 
