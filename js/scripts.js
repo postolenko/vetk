@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+      // preload
+    $(window).on('load', function () {
+
+        setTimeout(function() {
+
+            $(".preload-bg").fadeOut(1000);
+
+        }, 1200);
+  
+
+    });
+
 
     $(window).resize(function() {
 
