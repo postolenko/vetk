@@ -1758,7 +1758,6 @@ p a:hover {
 
 .committee-thumb {
     display: table;
-    /*max-width: 270px;*/
     width: 78%;
     position: relative;
     top: 5px;
@@ -1771,10 +1770,6 @@ p a:hover {
 .committee-thumb.yellow .committee-thumb-left-col,
 .committee-thumb.yellow .item-num-box:after {
     background: rgba(254, 195, 59, 1);
-}
-
-.committee-thumb.yellow .triangle-left {
-
 }
 
 .сommittee-item:nth-child(0) .committee-thumb {
