@@ -1,16 +1,16 @@
 $(document).ready(function() {
 
-    //   preload
-    // $(window).on('load', function () {
+      // preload
+    $(window).on('load', function () {
 
-    //     setTimeout(function() {
+        setTimeout(function() {
 
-    //         $(".preload-bg").fadeOut(500);
+            $(".preload-bg").fadeOut(500);
 
-    //     }, 700);
+        }, 700);
   
 
-    // });
+    });
 
 
     $(window).resize(function() {
