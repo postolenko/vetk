@@ -1347,35 +1347,6 @@ p a:hover {
     padding: 20px 0;
 }
 
-.slider-certificates img {
-    -webkit-transition-property: transform;
-    -webkit-transition-duration: .7s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: transform;
-    -moz-transition-duration: .7s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: transform;
-    -ms-transition-duration: .7s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: transform;
-    -o-transition-duration: .7s;
-    -o-transition-timing-function: ease;
-
-    transition-property: transform;
-    transition-duration: .7s;
-    transition-timing-function: ease;
-}
-
-.slider-certificates img:hover {
-    -webkit-transform: scale(1.13);
-    -moz-transform: scale(1.13);
-    -ms-transform: scale(1.13);
-    -o-transform: scale(1.13);
-    transform: scale(1.13);
-}
 
 .slider-certificates button {
     display: inline-block;
